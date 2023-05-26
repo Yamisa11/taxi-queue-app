@@ -17,7 +17,7 @@ var taxiNumber = 0;
 	}
 	
 	function taxiDepart(){
-		if (taxiNumber>1 && persons>=12) {
+		if (taxiNumber>=1 && persons>=12) {
 			taxiNumber--
 			persons -= 12
 		}
